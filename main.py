@@ -22,4 +22,3 @@ for index,task in enumerate(tasks):
         st.rerun()
     
 st.text_input(label='aa',placeholder='add new task',on_change =add_task,key='new_task')
-st.session_state
